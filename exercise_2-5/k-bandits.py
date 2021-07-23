@@ -103,7 +103,7 @@ def plot_k_bandits(data, num_plots, methods, colors=("b", "g")):
             ax[i].plot(np.arange(1, num_steps + 1), data[i][method], color=colors[method], label=method)
         ax[i].legend()
        
-    fig.savefig("ex_2-5.png", dpi=120)
+    fig.savefig("exercise_2-5/k-bandits.png", dpi=120)
 
 # Execution starts here
 num_tests = 2000
